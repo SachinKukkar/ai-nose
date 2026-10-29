@@ -1,0 +1,13 @@
+--find-links https://data.dgl.ai/wheels/torch-2.4/repo.html
+torch @ https://download-r2.pytorch.org/whl/cpu/torch-2.4.0%2Bcpu-cp310-cp310-linux_x86_64.whl
+dgl==2.4.0
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+rdkit==2026.9.1
+dgllife==0.3.2
+deepchem==2.8.1.dev20260821122258
+streamlit==1.65.0
+huggingface_hub==2.3.0
+openpom @ https://github.com/BioMachineLearning/openpom/archive/5434c4b7badebca8e7d180aa34d2f787402121ee.zip

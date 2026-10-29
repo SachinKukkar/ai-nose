@@ -1,0 +1,12 @@
+# Large or rebuildable files (the trained weights are on the Hugging Face Hub)
+data/
+models/
+hub/
+app/models/
+app/catalogue.npz
+*.pt
+
+# Python and Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

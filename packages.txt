@@ -1,0 +1,6 @@
+libxrender1
+libxext6
+libexpat1
+libfontconfig1
+libfreetype6
+libgomp1
