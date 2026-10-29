@@ -109,7 +109,6 @@ The LLM is shown the 5 most similar training molecules (Tanimoto on Morgan finge
 
 ## Notebooks
 - 01_explore_data: load data, build molecular graphs, split
-- 02_train: first training runs (5 and 150 epochs)
 - 03_ensemble: 10-model ensemble, prediction function
 - 04_baseline: random forest baseline, confidence intervals, per-smell chart
 - 05_odor_map: odor-map figure, kNN test, nearest neighbours

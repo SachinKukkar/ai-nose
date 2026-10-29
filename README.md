@@ -36,13 +36,12 @@ A 4B open LLM (Qwen3-4B-Instruct, run locally with Ollama) picked 5 of the 138 s
 - Retrieval nearly doubles its precision, but the LLM still does worse than simply counting the evidence it was given (−0.055, 95% CI −0.072 to −0.038).
 - Takeaway: for this task, the specialist model should make the prediction; an LLM is better suited to explaining it.
 
-Full numbers, checks and engineering notes: [RESULTS.md](RESULTS.md).
+Full numbers, checks and engineering notes: [Latest_RESULTS.md](Latest_RESULTS.md).
 
 ## What's in this repo
 | Path | What it is |
 |---|---|
 | `notebooks/01_explore_data.ipynb` | Load data, build molecular graphs, iterative stratified split |
-| `notebooks/02_train.ipynb` | First training runs |
 | `notebooks/03_ensemble.ipynb` | 10-model ensemble with early stopping; prediction function |
 | `notebooks/04_baseline.ipynb` | Random-forest baseline, bootstrap CIs, per-smell comparison |
 | `notebooks/05_odor_map.ipynb` | Odor-map figure, kNN test, nearest neighbours |
